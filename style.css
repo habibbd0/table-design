@@ -1,0 +1,54 @@
+body{
+  background: black;
+}
+
+.container{
+  display: flex;
+  width: 65%;
+  height: 70vh;
+  background-color:rgb(153, 143, 51) ;
+  justify-content: center;
+  /* align-items: center; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+}
+
+table{
+  color:white;
+    width: 800pX;
+    height: 400px;
+  background: rgb(155, 23, 153);
+
+}
+marquee{
+  background: whitesmoke;
+  font-size: 30px;
+  color: red;
+ margin-bottom: 20px;
+}
+caption{
+  font-size: 30px;
+}
+ caption:hover{
+  color: blue;
+}
+th,td{
+  text-align: center;
+  color: white;
+  /* border: 1px solid ; */
+
+}
+table:hover th{
+  color: rgb(253, 2, 2);
+  background: whitesmoke;
+  /* font-size: 40px; */
+}
+table:hover td{
+  color: black;
+}
+table:hover .box{
+  color: red;
+}
